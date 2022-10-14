@@ -18,7 +18,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: aqua;
-    color: var(--grey-dack);
+    color: var(--grey-back);
     font-size: 15px;
 }
 
