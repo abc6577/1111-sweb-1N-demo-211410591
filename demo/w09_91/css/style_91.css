@@ -614,3 +614,26 @@ tiles
   grid-area: i;
 }
 
+/*
+===========
+resume
+===========
+*/
+
+.main-resume-section {
+  min-height: 100vh;
+  width: 80vw;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 30fr 70fr;
+}
+
+.resume-left {
+  background-color: #68a3ff;
+  height: 100%;
+}
+
+.resume-right {
+  background-color: #e2fceb;
+  height: 100%;
+}
