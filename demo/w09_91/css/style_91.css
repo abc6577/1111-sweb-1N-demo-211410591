@@ -633,7 +633,34 @@ resume
   height: 100%;
 }
 
+.left-content {
+  padding: 2.5rem 3rem;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 2rem;
+  color: white;
+  padding: 1.2rem 0;
+  text-align: center;
+}
+
+.career {
+  font-size: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0f172a;
+}
+
 .resume-right {
   background-color: #e2fceb;
   height: 100%;
+}
+
+.hentai {
+  color: #0654ad;
 }
