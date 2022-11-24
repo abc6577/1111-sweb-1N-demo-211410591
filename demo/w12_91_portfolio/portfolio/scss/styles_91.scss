@@ -116,7 +116,19 @@ sidebar
     }
 
     .social-icons {
-        
+        display: grid;
+        margin-top: 3rem;
+        width: 20rem;
+        grid-template-columns: repeat(5,1fr);
+        justify-items: center;
+    }
+    .social-icon {
+        font-size: 1.5rem;
+        color: var(--clr-grey-5);
+        transition: var(--transition);
+    }
+    .social-icon:hover {
+        color: var(--clr-grey-5);
     }
 }
 

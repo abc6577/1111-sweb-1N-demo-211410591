@@ -265,6 +265,22 @@ sidebar
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
 }
+.sidebar .social-icons {
+  display: grid;
+  margin-top: 3rem;
+  width: 20rem;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.sidebar .social-icon {
+  font-size: 1.5rem;
+  color: var(--clr-grey-5);
+  transition: var(--transition);
+}
+.sidebar .social-icon:hover {
+  color: var(--clr-grey-5);
+}
+
 .show-sidebar {
   transform: translateX(0);
 }
