@@ -380,7 +380,7 @@ hero
     border-radius: var(--radius);
   }
 }
-.section .about {
+.section {
   grid-template-columns: 1fr 1fr;
 }
 
