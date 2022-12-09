@@ -341,10 +341,11 @@ About
   */
 
   .projects {
+
+    &
     &-text {
         width: 80vw;
         margin: 0 auto;
-
     }
 
     .underline {
@@ -423,14 +424,14 @@ About
 
    @media screen and (min-width: 1170px) {
     .projects {
+        
       &-center {
          grid-template-rows: 15rem 15rem;
          gap: 2rem;
          grid-template-areas: 
          'a b b'
          'a c d';
-         ;
-     }
+        }
      .project {
         height: 100%;
 
