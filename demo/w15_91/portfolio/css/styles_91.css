@@ -735,12 +735,19 @@ skills
   height: 1rem;
   width: 100%;
   border-radius: var(--radius);
+  position: relative;
 }
 .skill-value {
+  position: absolute;
+  top: 0;
+  left: 0;
   background: var(--clr-primary-5);
   height: 100%;
   width: 50%;
   border-radius: var(--radius);
+}
+.skill-value-80 {
+  width: 80%;
 }
 .skill-text {
   position: absolute;
@@ -748,10 +755,7 @@ skills
   left: calc(50% - 1rem);
 }
 .skill-text-80 {
-  left: calc(80% - 1rem);
-}
-.skill .value-80 {
-  width: 80%;
+  left: calc(50% - 1rem);
 }
 
 /*# sourceMappingURL=styles_91.css.map */

@@ -654,14 +654,21 @@ skills
         height: 1rem;
         width: 100%;
         border-radius: var(--radius);
-
+        position: relative;
     }
 
     &-value {
+        position: absolute;
+        top: 0;
+        left: 0;
         background: var(--clr-primary-5);
         height: 100%;
         width: 50%;
         border-radius: var(--radius);
+
+        &-80 {
+            width: 80%;
+        }
 
     }
 
@@ -669,15 +676,11 @@ skills
         position: absolute;
         top: -2rem;
         left: calc(50% - 1rem);
-
         &-80 {
-            left: calc(80% - 1rem);
+            left: calc(50% - 1rem);
+            
         }
     }
 
-    .value {
-        &-80 {
-            width: 80%;
-        }
-    }
+    
 }
